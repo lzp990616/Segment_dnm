@@ -31,21 +31,21 @@ file:///home/zhangzm/%E4%B8%8B%E8%BD%BD/Breast-Lesions-Segmentation-using-Dual-l
 ```
 
 ### Data_process:
-'python data_spilt.py  # Spilt the data. Select data by changing 'filepath' in code'
+`python data_spilt.py  # Spilt the data. Select data by changing 'filepath' in code`
 
 ### K-folder_experiment:
-'python k_folder.py --log_name "./log/log_name.log" --data_name bus --batch_size 8 --EPOCH 100 --LR 0.00005 --LOSSK 0.1 --DNM 1 --M 10'
+`python k_folder.py --log_name "./log/log_name.log" --data_name bus --batch_size 8 --EPOCH 100 --LR 0.00005 --LOSSK 0.1 --DNM 1 --M 10`
 
 ### Comparative_experiment:
-'python compare_kfold.py --log_name "./log/log_name.log" --data_name bus --model_name unet --batch_size 8 --EPOCH 100 --LR 0.00005'
+`python compare_kfold.py --log_name "./log/log_name.log" --data_name bus --model_name unet --batch_size 8 --EPOCH 100 --LR 0.00005`
 
 ### Pic_experiment:
-'python unet_train.py --log_name "./log/log_name.log" --data_name bus --batch_size 8 --EPOCH 100 --LR 0.00005 --LOSSK 0.1 --DNM 1 --M 10'
-'python unet_compare_train.py --log_name "./log/log_name.log" --data_name bus --batch_size 8 --EPOCH 100 --LR 0.00005'
+`python unet_train.py --log_name "./log/log_name.log" --data_name bus --batch_size 8 --EPOCH 100 --LR 0.00005 --LOSSK 0.1 --DNM 1 --M 10`
+`python unet_compare_train.py --log_name "./log/log_name.log" --data_name bus --batch_size 8 --EPOCH 100 --LR 0.00005`
 
 ### Pic_plot:
-'python predicted.py'
-'python predicted_other_model.py'
-'predicted_other_model_pic.py  # If the number of pictures and the name of the model are changed, the file needs to be changed.' 
+`python predicted.py`
+`python predicted_other_model.py`
+`predicted_other_model_pic.py  # If the number of pictures and the name of the model are changed, the file needs to be changed.` 
 
 
