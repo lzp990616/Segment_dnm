@@ -9,7 +9,7 @@ file:///home/zhangzm/%E4%B8%8B%E8%BD%BD/Breast-Lesions-Segmentation-using-Dual-l
 
 
 ### Data_dir
-'''
+
 ├── data
 │   ├── BUS 存放用于训练的图片
 │   ├── Kvasir-SEG
@@ -28,7 +28,7 @@ file:///home/zhangzm/%E4%B8%8B%E8%BD%BD/Breast-Lesions-Segmentation-using-Dual-l
 │       ├── valannot 存放用于验证的图片标注
 │       ├── test 存放用于测试的图片
 │       ├── testannot 存放用于测试的图片标注
-'''
+
 
 ### Data_process:
 'python data_spilt.py  # Spilt the data. Select data by changing 'filepath' in code'
